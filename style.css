@@ -1,0 +1,100 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fi {
+    margin: auto;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+
+}
+
+.one {
+    display: flex;
+    list-style: none;
+}
+
+.one a {
+    margin: 0px 16px;
+    cursor: pointer;
+}
+
+.two {
+    display: flex;
+}
+
+.im2 {
+    width: 100%;
+}
+
+.line {
+    padding: 30px;
+    text-align: center;
+    font-size: small;
+}
+
+.all {
+    color: red;
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    cursor: pointer;
+    margin: 75px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+    margin: auto;
+}
+
+.content .off {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 64px;
+}
+
+.ton {
+    text-align: center;
+}
+
+.content .im {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .off i {
+    font-size: 40px;
+    padding: 5px 0px;
+    color: red;
+}
+
+.content .off span {
+    padding: 8px 0px 16px 0px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.ton h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.btn {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0px 20px;
+    border-radius: 5px;
+  }
